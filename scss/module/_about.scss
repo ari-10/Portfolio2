@@ -1,0 +1,40 @@
+.about {
+  @include _section;
+  background-color: $background-color_base;
+  background-image: 
+    radial-gradient(circle at 0% 50%, #fff 20%, transparent 100%),
+    url(./img/about-image_01.jpg);
+  background-size: cover;
+  background-position: center center, center top;
+
+  &__container {
+    @include _container;
+  }
+
+  &__title {
+    @include _section__title;
+  }
+
+  &__subtitle {
+    @include _section__subtitle;
+  }
+
+  &__content {
+    max-width: 40rem;
+  }
+
+  &__lead {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  &__text {
+    margin-bottom: 4rem;
+  }
+
+  &__link {
+    @include _btn;
+    margin-bottom: 3rem;
+  }
+}

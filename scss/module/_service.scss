@@ -1,0 +1,115 @@
+.service {
+  @include _section;
+  background-color: #f2f2f2;
+  counter-reset: service__num;
+
+  &__container {
+    @include _container;
+  }
+
+  &__title {
+    @include _section__title;
+  }
+
+  &__subtitle {
+    @include _section__subtitle;
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6rem;
+
+    @include breakPoint-th {
+      display: block;
+    }
+  }
+
+  &__content--reverse {
+    flex-flow: row-reverse;
+  }
+
+  &__feature {
+    margin: 0;
+    flex-basis: 55%;
+  } 
+
+  &__feature-img {
+    object-fit: cover;
+    border-radius: 1rem;
+  }
+
+  &__desc {
+    flex-flow: column;
+    flex-basis: 40%;
+  }
+
+  &__desc-ttl {
+    $font-size: 2.4rem;
+    font-size: $font-size;
+    font-weight: bold;
+    line-height: 1.3;
+
+    @include breakPoint_tw {
+      font-size: calc(#{$font-size} * 0.9);
+    }
+    
+    @include breakPoint_th {
+      font-size: calc(#{$font-size} * 0.8);
+    }
+
+    @include breakPoint_sp {
+      font-size: calc(#{$font-size} * 0.7);
+    }
+
+    &::before {
+      color: $color_base;
+      font-weight: normal;
+      margin-right: 1rem;
+      font-size: 4.8rem;
+      vertical-align: middle;
+    }
+
+    &::after {
+      content: "-0" counter(service__num);
+      counter-increment: service__num;
+      font-size: 1.6rem;
+      font-style: italic;
+      margin-left: 1rem;
+      color: #777;
+      font-family: $font-family_en;
+    }
+
+    &--first {
+      &::before {
+        content: '\e894';
+      }
+    }
+
+    &--second {
+      &::before {
+        content: '\e7fb';
+      }
+    }
+
+    &--third {
+      &::before {
+        content: '\f0e2';
+      }
+    }
+  }
+  
+  &__desc-text {
+    margin-bottom: 4rem;
+
+    @include breakPoint-th {
+      margin-bottom: 1rem;
+    }
+  }
+
+  &__desc-link {
+    @include _btn;
+    margin-bottom: 4rem;
+  }
+}

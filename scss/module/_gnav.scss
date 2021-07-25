@@ -1,0 +1,100 @@
+.gnav {
+
+  &__list {
+    display: flex;
+    
+    @include breakPoint-tw {
+      display: none;
+    }
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    margin-right: 3rem;
+  }
+
+  &__link {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    color: #fff;
+    position: relative;
+    font-size: 1.4rem;
+    
+    &:not(.gnav__link--strong) {
+      @include hover_line;
+    }
+
+    &--strong {
+      background-color: $color_base;
+      color: #fff;
+      border-radius: 1rem;
+      padding: 0.4rem 1.2rem;
+      transition: all 0.4s;
+      border: 1px solid rgba(0,0,0,0.2);
+
+      &:hover {
+        background-color: #fff;
+        color: $color_base;
+      }
+    }
+  }
+
+  &__btn {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 4;
+    width: 6rem;
+    height: 6rem;
+    position: relative;
+    z-index: 4;
+  
+    &--active {
+  
+      .gnav__btn-line {
+        background-color: transparent;
+    
+        &::before {
+          bottom: 0;
+          transform: rotate(45deg);
+          background-color: #fff;
+        }
+    
+        &::after {
+          top: 0;
+          transform: rotate(-45deg);
+          background-color: #fff;
+        }
+      }
+    }
+  
+    &-line {
+      display: block;
+      height: 0.2rem;
+      width: 3rem;
+      background-color: #fff;
+      position: absolute;
+      transition: all 0.5s;
+      z-index: 2;
+      
+      &::before {
+        @extend .gnav__btn-line;
+        content: '';
+        bottom: 1rem;
+      }
+  
+      &::after {
+        @extend .gnav__btn-line;
+        content: '';
+        top: 1rem;
+      }
+    }
+
+    @include breakPoint-tw {
+      display: flex;
+    }
+  }
+}
