@@ -2270,10 +2270,11 @@ textarea {
       flex-basis: 48%;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .about-philosophy__content {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
+    margin-bottom: 3rem;
   }
 }
 

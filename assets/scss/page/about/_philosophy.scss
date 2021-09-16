@@ -23,7 +23,7 @@
   &__content {
     flex-basis: 48%;
 
-    @include breakPoint-sp {
+    @include breakPoint-th {
       flex-basis: 100%;
       margin-bottom: 3rem;
     }
