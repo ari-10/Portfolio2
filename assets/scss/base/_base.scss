@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+
+  &::before,
+  &::after {
+    box-sizing: border-box;
+  }
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: $font-size_base;
+  font-family: $font-family_sans-serif;
+  color: $color_black;
+  line-height: 2;
+  background-color: #fff;
+  max-width: 1560px;
+
+  @include breakPoint-tw {
+    font-size: calc(#{$font-size_base} * 0.94);
+  }
+  
+  @include breakPoint-th {
+    font-size: calc(#{$font-size_base} * 0.88);
+  }  
+
+  @include breakPoint-sp {
+    font-size: calc(#{$font-size_base} * 0.82);
+  }
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: $color_black;
+}
+
+._sp {
+  @include breakPoint_sp {
+    display: none;
+  }
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 4rem;
+
+  @include breakPoint_th {
+    padding: 0 2rem;
+  }
+}
+
+.section {
+  padding-top: 6rem;
+}
+
+.section__title {
+  font-size: 4.8rem;
+  margin-bottom: 4rem;
+  font-family: $font-family_serif;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+
+  @include breakPoint-th {
+    font-size: 4.0rem;
+  }
+
+  @include breakPoint-sp {
+    font-size: 3.2rem;
+  }
+}
+
+.section__subtitle {
+  color: $color_base;
+  font-size: 2.0rem;
+  letter-spacing: 0.3rem;
+  font-weight: bold;
+  font-family: $font-family_en;
+  margin-bottom: 2rem;
+
+  @include breakPoint-th {
+    font-size: 1.8rem;
+  }
+
+  @include breakPoint-sp {
+    font-size: 1.6rem;
+  }
+}

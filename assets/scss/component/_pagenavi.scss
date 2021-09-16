@@ -1,0 +1,18 @@
+.paging-area {
+
+  .current {
+    background-color: $color_base;
+    color: #fff;
+  }
+
+  a:hover {
+    background-color: #f2f2f2;
+  }
+}
+
+.page-numbers {
+  padding: 0.8rem 1.6rem;
+  transition: 0.3s ease;
+  display: inline-block;
+  border-radius: 0.5rem;
+}

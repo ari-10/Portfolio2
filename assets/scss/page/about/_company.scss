@@ -1,0 +1,51 @@
+.about-company {
+  padding: 6rem 0;
+
+  &__subtitle {
+    @extend .section__subtitle;
+  }
+
+  &__title {
+    @extend .section__title;
+  }
+
+  &__list {
+    display: flex;
+    flex-flow: wrap;
+    margin-bottom: 2rem;
+    margin-left: 6rem;
+
+    @include breakPoint-sp {
+      margin-left: 2rem;
+    }
+  }
+
+  &__term {
+    flex-basis: 25%;
+    padding: 2rem 0;
+    border-bottom: 1px solid #bbb;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+  }
+
+  &__desc {
+    flex-basis: 75%;
+    padding: 2rem 0;
+    border-bottom: 1px solid #bbb;
+  }
+
+  &__map {
+    width: 100%;
+    margin-top: 6rem;
+  }
+
+  &__map-google {
+    width: 100%;
+    height: 48rem;
+    border: none;
+    
+    @include breakPoint-sp {
+      height: 32rem;
+    }
+  }
+}

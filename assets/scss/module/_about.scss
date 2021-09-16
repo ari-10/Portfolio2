@@ -1,0 +1,35 @@
+.home-about {
+  padding: 6rem 0;
+  background-color: $background-color_base;
+  background-image: 
+    radial-gradient(circle at 0% 50%, #fff 20%, transparent 100%),
+    url(./images/about-image_01.jpg);
+  background-size: cover;
+  background-position: center center, center top;
+
+  &__title {
+    @extend .section__title;
+  }
+
+  &__subtitle {
+    @extend .section__subtitle;
+  }
+
+  &__content {
+    max-width: 40rem;
+  }
+
+  &__lead {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  &__text {
+    margin-bottom: 4rem;
+  }
+
+  &__link {
+    margin-bottom: 3rem;
+  }
+}

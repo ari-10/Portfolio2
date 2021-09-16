@@ -1,0 +1,17 @@
+.breadcrumb {
+  font-size: 1.3rem;
+  color: #fff;
+
+  span {
+    color: #fff;
+    margin-right: 0.5rem;
+
+    &:not(:first-child) {
+      margin-left: 0.5rem;
+    }
+  }
+
+  .current-item {
+    font-weight: bold;
+  }
+}

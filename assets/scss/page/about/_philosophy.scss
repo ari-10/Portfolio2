@@ -1,0 +1,44 @@
+.about-philosophy {
+  padding: 6rem 0;
+
+  &__subtitle {
+    @extend .section__subtitle;
+  }
+
+  &__title {
+    @extend .section__title;
+  }
+
+  &__body {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+    margin-left: 6rem;
+
+    @include breakPoint-sp {
+      margin-left: 2rem;
+    }
+  }
+
+  &__content {
+    flex-basis: 48%;
+
+    @include breakPoint-sp {
+      flex-basis: 100%;
+    }
+
+    &-title {
+      font-size: 2.4rem;
+      line-height: 1.3;
+      color: $color_base;
+      font-family: $font-family_serif;
+      letter-spacing: 0.1rem;
+      font-weight: bold;
+      margin-bottom: 2rem;
+
+      @include breakPoint-sp {
+        font-size: 2rem;
+      }
+    }
+  }
+}

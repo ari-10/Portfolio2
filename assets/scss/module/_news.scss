@@ -1,0 +1,50 @@
+.home-news {
+  padding: 6rem 0;
+
+  &__title {
+    @extend .section__title;
+  }
+
+  &__subtitle {
+    @extend .section__subtitle;
+  }
+
+  &__list {
+    margin-bottom: 3rem;
+  }
+    
+  &__item {
+    display: flex;
+    flex-flow: row wrap;
+    border-bottom: 1px dotted #999;
+    padding: 1rem 0;
+  }
+
+  &__date {
+    margin: 1rem;
+  }
+
+  &__category {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 1.2rem;
+    min-width: 10rem;
+    text-align: center;
+    background-color: $color_base;
+    margin: 1rem;
+  }
+
+  &__text {
+    margin: 1rem;
+
+    @include breakPoint-th {
+      flex-basis: 100%;
+    }
+  }
+
+  &__more a {
+    margin-left: auto;
+  }
+}

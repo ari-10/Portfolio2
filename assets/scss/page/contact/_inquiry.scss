@@ -1,0 +1,15 @@
+.contact-inquiry {
+  padding: 6rem 0;
+  
+  &__title {
+    @extend .section__title;
+  }
+
+  &__subtitle {
+    @extend .section__subtitle;
+  }
+
+  &__text {
+    margin-bottom: 3rem;
+  }
+}
