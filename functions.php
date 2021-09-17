@@ -36,7 +36,7 @@ function create_news() {
     'public' => true
   ));
  
-  register_taxonomy_for_object_type( tax_news, array('news') );
+  register_taxonomy_for_object_type('tax_news', array('news'));
 }
 
 
