@@ -7,7 +7,7 @@
 <img width="200" alt="screenshot" src="https://github.com/ari-10/portfolio2/blob/master/screenshot.png">
 
 ### URL
-[Portfolio2](https://ari-10.github.io/portfolio2)
+[Portfolio2](http://t-ariyama.com/portfolio2/)
 
 ### サイトの目的
 企業のブランディング確立
