@@ -18,6 +18,8 @@ body {
   line-height: 2;
   background-color: #fff;
   max-width: 1560px;
+  font-feature-settings: "palt" 1;
+  letter-spacing: 0.05rem;
 
   @include breakPoint-tw {
     font-size: calc(#{$font-size_base} * 0.94);
