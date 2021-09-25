@@ -239,6 +239,9 @@ body {
   line-height: 2;
   background-color: #fff;
   max-width: 1560px;
+  -webkit-font-feature-settings: "palt" 1;
+          font-feature-settings: "palt" 1;
+  letter-spacing: 0.05rem;
 }
 
 @media (max-width: 1024px) {
