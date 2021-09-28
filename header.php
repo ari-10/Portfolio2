@@ -4,6 +4,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="<?php bloginfo('description'); ?>">
+  <meta name="format-detection" content="telephone=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Portfolio2 | Takahisa Ariyama">
+  <meta property="og:description" content="Takahisa Ariyamaのポートフォリオ2です。">
+  <meta property="og:url" content="http://t-ariyama.com/portfolio2/">
+  <meta property="og:image" content="">
+  <meta property="og:site_name" content="Portfolio2 | Takahisa Ariyama">
+  <meta property="og:locale" content="ja_JP">
+  <!-- <meta property="fb:app_id" content=""> -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="Takahisa Ariyamaのポートフォリオ2です。">
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="canonical" href="http://t-ariyama.com/portfolio2/">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap&text=未来を動かせ。" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Merienda+One&family=Lora:wght@400;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons%7CMaterial+Icons+Outlined" rel="stylesheet">

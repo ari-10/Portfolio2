@@ -28,7 +28,7 @@
       <div class="container">
         <div class="service-project__content">
           <figure class="service-project__feature">
-            <img class="service-project__feature-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/service-img_01.jpg" alt="">
+            <img class="service-project__feature-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/service-img_01.jpg" alt="事業内容1">
           </figure>
           <div class="service-project__desc">
             <h2 class="service-project__desc-ttl service-project__desc-ttl--first">腹の中が講演ある</h2>
@@ -41,7 +41,7 @@
         </div>
         <div class="service-project__content service-project__content--reverse">
           <figure class="service-project__feature">
-            <img class="service-project__feature-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/service-img_02.jpg" alt="">
+            <img class="service-project__feature-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/service-img_02.jpg" alt="事業内容2">
           </figure>
           <div class="service-project__desc">
             <h2 class="service-project__desc-ttl service-project__desc-ttl--second">腹の中が講演ある</h2>
@@ -54,7 +54,7 @@
         </div>
         <div class="service-project__content">
           <figure class="service-project__feature">
-            <img class="service-project__feature-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/service-img_03.jpg" alt="">
+            <img class="service-project__feature-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/service-img_03.jpg" alt="事業内容3">
           </figure>
           <div class="service-project__desc">
             <h2 class="service-project__desc-ttl service-project__desc-ttl--third">腹の中が講演ある</h2>

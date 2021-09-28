@@ -47,7 +47,7 @@
       <h1 class="home-service__title">事業紹介</h1>
       <div class="home-service__content">
         <figure class="home-service__feature">
-          <img class="home-service__feature-img js-fade" src="<?php echo get_template_directory_uri(); ?>/assets/images/service-img_01.jpg" alt="">
+          <img class="home-service__feature-img js-fade" src="<?php echo get_template_directory_uri(); ?>/assets/images/service-img_01.jpg" alt="事業紹介1">
         </figure>
         <div class="home-service__desc">
           <h2 class="home-service__desc-ttl home-service__desc-ttl--first">腹の中が講演ある</h2>
@@ -61,7 +61,7 @@
       </div>
       <div class="home-service__content home-service__content--reverse">
         <figure class="home-service__feature">
-          <img class="home-service__feature-img js-fade" src="<?php echo get_template_directory_uri(); ?>/assets/images/service-img_02.jpg" alt="">
+          <img class="home-service__feature-img js-fade" src="<?php echo get_template_directory_uri(); ?>/assets/images/service-img_02.jpg" alt="事業紹介2">
         </figure>
         <div class="home-service__desc">
           <h2 class="home-service__desc-ttl home-service__desc-ttl--second">腹の中が講演ある</h2>
@@ -75,7 +75,7 @@
       </div>
       <div class="home-service__content">
         <figure class="home-service__feature">
-          <img class="home-service__feature-img js-fade" src="<?php echo get_template_directory_uri(); ?>/assets/images/service-img_03.jpg" alt="">
+          <img class="home-service__feature-img js-fade" src="<?php echo get_template_directory_uri(); ?>/assets/images/service-img_03.jpg" alt="事業紹介3">
         </figure>
         <div class="home-service__desc">
           <h2 class="home-service__desc-ttl home-service__desc-ttl--third">腹の中が講演ある</h2>
@@ -166,7 +166,7 @@
       <div class="home-recruit__content">
         <div class="home-recruit__list">
           <div class="home-recruit__item">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/recruit_img-01.jpg" alt="" class="home-recruit__image js-fade">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/recruit_img-01.jpg" alt="メンバー1" class="home-recruit__image js-fade">
             <h2 class="home-recruit__catch">実は口義務というその時ありだ私の主義はざっとできがいた。</h2>
             <a class="home-recruit__link" href="<?php echo esc_url(home_url('/recruit/')); ?>">
               <div class="button">
@@ -178,7 +178,7 @@
             </a>
           </div>
           <div class="home-recruit__item">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/recruit_img-01.jpg" alt="" class="home-recruit__image js-fade">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/recruit_img-01.jpg" alt="メンバー2" class="home-recruit__image js-fade">
             <h2 class="home-recruit__catch">ますますの時代が、よそもどことすわるた道具を事情で意見なっといるんだ。</h2>
             <a class="home-recruit__link" href="<?php echo esc_url(home_url('/recruit/')); ?>">
               <div class="button">
@@ -190,7 +190,7 @@
             </a>
           </div>
           <div class="home-recruit__item">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/recruit_img-01.jpg" alt="" class="home-recruit__image js-fade">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/recruit_img-01.jpg" alt="メンバー3" class="home-recruit__image js-fade">
             <h2 class="home-recruit__catch">限りよりも精神に食わせろたば、気ご免は四人眺めるでしょなく。</h2>
             <a class="home-recruit__link" href="<?php echo esc_url(home_url('/recruit/')); ?>">
               <div class="button">
