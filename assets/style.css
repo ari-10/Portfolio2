@@ -267,6 +267,7 @@ body {
 img {
   width: 100%;
   height: auto;
+  vertical-align: bottom;
 }
 
 a {
@@ -296,7 +297,7 @@ a {
   padding-top: 6rem;
 }
 
-.section__title, .home-service__title, .home-about__title, .home-recruit__title, .home-news__title, .news-archive__title, .about-message__title, .about-company__title, .about-philosophy__title, .service-project__title, .recruit-guideline__title, .contact-inquiry__title {
+.section__title, .home-service__title, .home-about__title, .home-recruit__title, .home-news__title, .news-archive__title, .about-message__title, .about-company__title, .about-philosophy__title, .service-project__title, .recruit-guideline__title, .recruit-member__title, .contact-inquiry__title {
   font-size: 4.8rem;
   margin-bottom: 4rem;
   font-family: "Yu Mincho", serif;
@@ -305,18 +306,18 @@ a {
 }
 
 @media (max-width: 768px) {
-  .section__title, .home-service__title, .home-about__title, .home-recruit__title, .home-news__title, .news-archive__title, .about-message__title, .about-company__title, .about-philosophy__title, .service-project__title, .recruit-guideline__title, .contact-inquiry__title {
+  .section__title, .home-service__title, .home-about__title, .home-recruit__title, .home-news__title, .news-archive__title, .about-message__title, .about-company__title, .about-philosophy__title, .service-project__title, .recruit-guideline__title, .recruit-member__title, .contact-inquiry__title {
     font-size: 4.0rem;
   }
 }
 
 @media (max-width: 480px) {
-  .section__title, .home-service__title, .home-about__title, .home-recruit__title, .home-news__title, .news-archive__title, .about-message__title, .about-company__title, .about-philosophy__title, .service-project__title, .recruit-guideline__title, .contact-inquiry__title {
+  .section__title, .home-service__title, .home-about__title, .home-recruit__title, .home-news__title, .news-archive__title, .about-message__title, .about-company__title, .about-philosophy__title, .service-project__title, .recruit-guideline__title, .recruit-member__title, .contact-inquiry__title {
     font-size: 3.2rem;
   }
 }
 
-.section__subtitle, .home-service__subtitle, .home-about__subtitle, .home-recruit__subtitle, .home-news__subtitle, .news-archive__subtitle, .about-message__subtitle, .about-company__subtitle, .about-philosophy__subtitle, .service-project__subtitle, .recruit-guideline__subtitle, .contact-inquiry__subtitle {
+.section__subtitle, .home-service__subtitle, .home-about__subtitle, .home-recruit__subtitle, .home-news__subtitle, .news-archive__subtitle, .about-message__subtitle, .about-company__subtitle, .about-philosophy__subtitle, .service-project__subtitle, .recruit-guideline__subtitle, .recruit-member__subtitle, .contact-inquiry__subtitle {
   color: #003F71;
   font-size: 2.0rem;
   letter-spacing: 0.3rem;
@@ -326,13 +327,13 @@ a {
 }
 
 @media (max-width: 768px) {
-  .section__subtitle, .home-service__subtitle, .home-about__subtitle, .home-recruit__subtitle, .home-news__subtitle, .news-archive__subtitle, .about-message__subtitle, .about-company__subtitle, .about-philosophy__subtitle, .service-project__subtitle, .recruit-guideline__subtitle, .contact-inquiry__subtitle {
+  .section__subtitle, .home-service__subtitle, .home-about__subtitle, .home-recruit__subtitle, .home-news__subtitle, .news-archive__subtitle, .about-message__subtitle, .about-company__subtitle, .about-philosophy__subtitle, .service-project__subtitle, .recruit-guideline__subtitle, .recruit-member__subtitle, .contact-inquiry__subtitle {
     font-size: 1.8rem;
   }
 }
 
 @media (max-width: 480px) {
-  .section__subtitle, .home-service__subtitle, .home-about__subtitle, .home-recruit__subtitle, .home-news__subtitle, .news-archive__subtitle, .about-message__subtitle, .about-company__subtitle, .about-philosophy__subtitle, .service-project__subtitle, .recruit-guideline__subtitle, .contact-inquiry__subtitle {
+  .section__subtitle, .home-service__subtitle, .home-about__subtitle, .home-recruit__subtitle, .home-news__subtitle, .news-archive__subtitle, .about-message__subtitle, .about-company__subtitle, .about-philosophy__subtitle, .service-project__subtitle, .recruit-guideline__subtitle, .recruit-member__subtitle, .contact-inquiry__subtitle {
     font-size: 1.6rem;
   }
 }
@@ -2417,6 +2418,100 @@ textarea {
 
 .recruit-guideline {
   padding: 8rem 0;
+}
+
+.recruit-member {
+  padding: 8rem 0;
+}
+
+.recruit-member__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-image: linear-gradient(270deg, #f4f4f4 calc(100% - 30px), transparent calc(100% - 30px));
+  margin-bottom: 6rem;
+}
+
+@media (max-width: 480px) {
+  .recruit-member__item {
+    display: block;
+  }
+}
+
+.recruit-member__item-body {
+  -ms-flex-preferred-size: 70%;
+      flex-basis: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 5%;
+}
+
+.recruit-member__item-thumb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
+  -webkit-transform: translateY(-2rem);
+          transform: translateY(-2rem);
+}
+
+@media (max-width: 480px) {
+  .recruit-member__item-thumb {
+    width: 60%;
+    margin: auto;
+  }
+}
+
+.recruit-member__item-thumb img {
+  border-radius: 1rem;
+}
+
+.recruit-member__item-join {
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  margin-bottom: 1rem;
+  background: #003F71;
+  padding: 0 1rem;
+}
+
+.recruit-member__item-text {
+  margin-bottom: 3rem;
+}
+
+.recruit-member__item-name {
+  font-size: 3.6rem;
+  font-weight: bold;
+  line-height: 1.3;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 480px) {
+  .recruit-member__item-name {
+    font-size: 3.2rem;
+  }
+}
+
+.recruit-member__item-category {
+  font-weight: bold;
 }
 
 .contact-inquiry {

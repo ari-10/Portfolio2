@@ -63,7 +63,7 @@
           </div>
         </div>
         <div class="about-message__feature">
-          <img class="about-message__feature-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/recruit_img-01.jpg" alt="山田太郎" srcset="">
+          <img class="about-message__feature-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/message-img_01.jpg" alt="山田太郎" srcset="">
         </div>
       </div>
     </section>
