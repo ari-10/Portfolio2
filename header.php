@@ -22,7 +22,13 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap&text=未来を動かせ。" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Merienda+One&family=Lora:wght@400;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons%7CMaterial+Icons+Outlined" rel="stylesheet">
-  <title><?php bloginfo('name'); ?></title>
+  <title>
+    <?php if (is_home()) : ?>
+      <?php bloginfo('name'); ?>
+    <?php else : ?>
+      <?php wp_title(''); ?> ｜ <?php bloginfo('name'); ?>
+    <?php endif; ?>
+  </title>
   <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
