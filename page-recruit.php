@@ -51,7 +51,7 @@
         <span class="recruit-member__subtitle">Member</span>
         <h2 class="recruit-member__title">社員紹介</h2>
         <div class="recruit-member__body">
-          <div class="recruit-member__item">
+          <div class="recruit-member__item" id="member01">
             <div class="recruit-member__item-thumb">
               <img src="<?php echo get_template_directory_uri(); ?>/assets/images/recruit-img_01.jpg" alt="メンバー1" class="">
             </div>
@@ -64,7 +64,7 @@
               </p>
             </div>
           </div>
-          <div class="recruit-member__item">
+          <div class="recruit-member__item" id="member02">
             <div class="recruit-member__item-thumb">
               <img src="<?php echo get_template_directory_uri(); ?>/assets/images/recruit-img_02.jpg" alt="メンバー2" class="">
             </div>
@@ -77,7 +77,7 @@
               </p>
             </div>
           </div>
-          <div class="recruit-member__item">
+          <div class="recruit-member__item" id="member03">
             <div class="recruit-member__item-thumb">
               <img src="<?php echo get_template_directory_uri(); ?>/assets/images/recruit-img_03.jpg" alt="メンバー3" class="">
             </div>

@@ -168,7 +168,7 @@
           <div class="home-recruit__item">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/recruit-img_01.jpg" alt="メンバー1" class="home-recruit__image js-fade">
             <h2 class="home-recruit__catch">実は口義務というその時ありだ私の主義はざっとできがいた。</h2>
-            <a class="home-recruit__link" href="<?php echo esc_url(home_url('/recruit/')); ?>">
+            <a class="home-recruit__link" href="<?php echo esc_url(home_url('/recruit/')); ?>#member01">
               <div class="button">
                 <div class="home-recruit__detail">
                   <p class="home-recruit__category">ビジネス事業部</p>
@@ -180,7 +180,7 @@
           <div class="home-recruit__item">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/recruit-img_02.jpg" alt="メンバー2" class="home-recruit__image js-fade">
             <h2 class="home-recruit__catch">ますますの時代が、よそもどことすわるた道具を事情で意見なっといるんだ。</h2>
-            <a class="home-recruit__link" href="<?php echo esc_url(home_url('/recruit/')); ?>">
+            <a class="home-recruit__link" href="<?php echo esc_url(home_url('/recruit/')); ?>#member02">
               <div class="button">
                 <div class="home-recruit__detail">
                   <p class="home-recruit__category">ビジネス事業部</p>
@@ -192,7 +192,7 @@
           <div class="home-recruit__item">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/recruit-img_03.jpg" alt="メンバー3" class="home-recruit__image js-fade">
             <h2 class="home-recruit__catch">限りよりも精神に食わせろたば、気ご免は四人眺めるでしょなく。</h2>
-            <a class="home-recruit__link" href="<?php echo esc_url(home_url('/recruit/')); ?>">
+            <a class="home-recruit__link" href="<?php echo esc_url(home_url('/recruit/')); ?>#member03">
               <div class="button">
                 <div class="home-recruit__detail">
                   <p class="home-recruit__category">ビジネス事業部</p>
